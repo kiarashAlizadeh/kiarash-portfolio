@@ -55,9 +55,9 @@ function Projects() {
   ]
   return (
     <>
-      <div className="my-10">
-        <div className="ml-2 text-3xl font-bold">My Works</div>
-        <div className="mt-5 flex flex-col gap-y-10">
+      <div className="my-10 bg-teal-200 py-10">
+        <div className="ml-2 text-3xl font-bold text-slate-700 sm:text-center">My Works</div>
+        <div className="mt-5 flex items-center flex-col sm:gap-x-10 sm:justify-center flex-wrap gap-y-10 sm:flex-row">
           {projects.map((project) => (
             <Project key={project.id} {...project} />
           ))}

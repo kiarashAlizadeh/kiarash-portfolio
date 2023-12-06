@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 function Project({ pic, title, technologies, link }) {
   return (
     <>
-      <div className="mx-4 select-none rounded-2xl bg-[#106a70d8] text-white">
+      <div className="mx-4 max-w-[300px] select-none rounded-2xl bg-[#106a70d8] text-white md:max-w-[350px]">
         <img src={pic} alt="" className="rounded-t-2xl" />
         <div className="flex flex-col items-center px-4 pb-5 pt-3">
           <span className="text-3xl font-black text-white">{title}</span>
