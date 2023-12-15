@@ -45,13 +45,13 @@ function Projects() {
       technologies: "React, Tailwindcss, Js",
       link: "https://hotel-managment-rose.vercel.app/",
     },
-    {
-      id: 5,
-      pic: emojiGame,
-      title: "Emoji Game",
-      technologies: "Html, Css, Js",
-      link: "https://kiarashalizadeh.github.io/emoji-fullGame/",
-    },
+    // {
+    //   id: 5,
+    //   pic: emojiGame,
+    //   title: "Emoji Game",
+    //   technologies: "Html, Css, Js",
+    //   link: "https://kiarashalizadeh.github.io/emoji-fullGame/",
+    // },
   ]
   return (
     <>
